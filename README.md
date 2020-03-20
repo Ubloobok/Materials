@@ -1,2 +1,3 @@
-# ComplexityImitation
-Habr article "Complexity Imitation" (Имитация Сложности)
+# Complexity Imitation
+
+Article "Complexity Imitation" (Имитация Сложности) for Habr.com.
