@@ -2,6 +2,6 @@
 
 Text, slides and other materials for articles and events.
 
-* [Complexity Imitation](Complexity Imitation)
-* [Good Software Engineer](Good Software Engineer)
+* [Complexity Imitation](Complexity%20Imitation/README.md)
+* [Good Software Engineer](Good%20Software%20Engineer/README.md)
 * TBD
