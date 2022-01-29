@@ -1,3 +1,7 @@
-# Complexity Imitation
+# Materials
 
-Article "Complexity Imitation" (Имитация Сложности) for Habr.com.
+Text, slides and other materials for articles and events.
+
+* (Complexity Imitation)[Complexity Imitation]
+* (Good Software Engineer)[Good Software Engineer]
+* TBD
