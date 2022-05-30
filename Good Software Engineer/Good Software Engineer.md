@@ -129,7 +129,8 @@ TODO: Испорчен энтерпрайзом?
 Хотелось бы упомянуть два эксперимента:
 
 - [William G. Chase and Herbert A. Simon - Perception in chess](https://notes.andymatuschak.org/Chase_and_Simon_-_Perception_in_chess) ([полный текст](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.601.2724&rep=rep1&type=pdf))
-- [Ben Shneiderman - Exploratory Experiments in Programmer Behavior](https://www.semanticscholar.org/paper/Exploratory-experiments-in-programmer-behavior-Shneiderman/b7a97d7f6c623cf6efefff73343009886d08342b) ([полный текст](http://www.cs.umd.edu/~ben/Shneiderman1976Exploratory.pdf))
+- [Ben Shneiderman - Exploratory Experiments in Programmer Behavior](https://www.semanticscholar.org/paper/Exploratory-experiments-in-programmer-behavior-Shneiderman/b7a97d7f6c623cf6efefff73343009886d08342b) ([полный текст](http://www.cs.umd.edu/~ben/Shneiderman1976Exploratory.pdf))
+
 Первый связан с шахматами, а второй с программированием, оба основаны на одинаковом предположении, что нашему мозгу (когнитивным моделям) легче работать со знакомыми ситуациями.
 
 Во втором эксперименте разным группам программистов показывали код (от студентов кто вообще кода не видел, до прошедших уже несколько курсов), а затем просили воспроизвести его. Оказалось, что информация запоминается скорее по смыслу, на основе прошлого опыта и знаний, нежели в конкретном синтаксисе исходного образца. Иным словами, знакомые конструкции и запоминается легче.
