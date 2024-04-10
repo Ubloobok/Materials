@@ -8,7 +8,7 @@ Well known problems (e.g. [Neetcode roadmap](https://neetcode.io/roadmap)), and 
 
 ### Arrays & Hashing
 
-| Problem Name | Hint | Complexity | Real-World Examples | 
+| Problem Name | Approach | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
 | [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | HashSet to track seen elements. | O(n) Time, O(n) Space | Detecting fraud or duplicate transactions in banking systems. |
 | [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Count character occurrences in both strings and compare. | O(n) Time, O(1) Space | Plagiarism detection in textual content by comparing word frequencies. |
@@ -22,103 +22,103 @@ Well known problems (e.g. [Neetcode roadmap](https://neetcode.io/roadmap)), and 
 
 ### Two Pointers
 
-| Problem Name | Hint | Complexity | Real-World Examples | 
+| Problem Name | Approach | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
 |||||
 
 ### Stack
 
-| Problem Name | Hint | Complexity | Real-World Examples | 
+| Problem Name | Approach | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
 |||||
 
 ### Binary Search
 
-| Problem Name | Hint | Complexity | Real-World Examples | 
+| Problem Name | Approach | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
 |||||
 
 ### Sliding Window
 
-| Problem Name | Hint | Complexity | Real-World Examples | 
+| Problem Name | Approach | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
 |||||
 
 ### Linked List
 
-| Problem Name | Hint | Complexity | Real-World Examples | 
+| Problem Name | Approach | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
 |||||
 
 ### Trees
 
-| Problem Name | Hint | Complexity | Real-World Examples | 
+| Problem Name | Approach | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
 |||||
 
 ### Tries
 
-| Problem Name | Hint | Complexity | Real-World Examples | 
+| Problem Name | Approach | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
 |||||
 
 ### Backtracking
 
-| Problem Name | Hint | Complexity | Real-World Examples | 
+| Problem Name | Approach | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
 |||||
 
 ### Heap / Priority Queue
 
-| Problem Name | Hint | Complexity | Real-World Examples | 
+| Problem Name | Approach | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
 |||||
 
 ### Intervals
 
-| Problem Name | Hint | Complexity | Real-World Examples | 
+| Problem Name | Approach | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
 |||||
 
 ### Greedy
 
-| Problem Name | Hint | Complexity | Real-World Examples | 
+| Problem Name | Approach | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
 |||||
 
 ### Graphs
 
-| Problem Name | Hint | Complexity | Real-World Examples | 
+| Problem Name | Approach | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
 |||||
 
 ### Advanced Graphs
 
-| Problem Name | Hint | Complexity | Real-World Examples | 
+| Problem Name | Approach | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
 |||||
 
 ### 1-D DP
 
-| Problem Name | Hint | Complexity | Real-World Examples | 
+| Problem Name | Approach | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
 |||||
 
 ### 2-D DP
 
-| Problem Name | Hint | Complexity | Real-World Examples | 
+| Problem Name | Approach | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
 |||||
 
 ### Bit Manipulation
 
-| Problem Name | Hint | Complexity | Real-World Examples | 
+| Problem Name | Approach | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
 |||||
 
 ### Math & Geometry
 
-| Problem Name | Hint | Complexity | Real-World Examples | 
+| Problem Name | Approach | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
 |||||
 
