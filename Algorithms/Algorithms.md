@@ -90,8 +90,8 @@ Well known problems (e.g. [Neetcode roadmap](https://neetcode.io/roadmap)), and 
 
 | Problem Name | Approach | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
-| [207. Course Schedule](https://leetcode.com/problems/course-schedule/description/) | DFS to find any cycle. | O(2n + 2e)) Time, O(3n + e) Space | Maze Solving, Dependency Resolution, Network Analysis. |
-| [210. Course Schedule II](https://leetcode.com/problems/course-schedule/description/) | Topological Sort using BFS (Kahn's Algorithm). | O(2n + 2e) Time, O(3n + e) Space | Shortest Path, Social Networking, Web Crawling. |
+| [207. Course Schedule](https://leetcode.com/problems/course-schedule) | DFS to find any cycle. | O(2n + 2e)) Time, O(3n + e) Space | Maze Solving, Dependency Resolution, Network Analysis. |
+| [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii) | Topological Sort using BFS (Kahn's Algorithm). | O(2n + 2e) Time, O(3n + e) Space | Shortest Path, Social Networking, Web Crawling. |
 
 ### Advanced Graphs
 
