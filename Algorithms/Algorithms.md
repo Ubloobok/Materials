@@ -22,15 +22,26 @@ Well known problems (e.g. [Neetcode roadmap](https://neetcode.io/roadmap)), and 
 
 ### Two Pointers
 
-| Problem Name | Approach | Complexity | Real-World Examples | 
+| Problem Name | Hint | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
-|||||
+| [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Two pointers, by comparing from start and end. | O(n) Time, O(1) Space. | Data validation or processing palindrome phrases. |
+| [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Two pointers, moving inward based on their sum compared to the target. | O(n) Time, O(1) Space | Find options to fit within a budget limit in e-commerce optimization. |
+| [15. 3Sum](https://leetcode.com/problems/3sum/) | Sort the array and use a fixed pointer with two moving pointers from both ends to find triples that sum to zero, skip the iterations where `nums[i]==nums[i-1]`. | O(n * log(n) + n^2) Time, O(1) Space | Find three investment options to balance a portfolio to zero net change in financial software. |
+| [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Two pointers, moving the pointer pointing to the shorter line inward, `if (height[i] < height[j])`. | O(n) Time, O(1) Space | Calculating maximum water containment or storage in physical simulations and real-world engineering problems. |
+| [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Two pointers and two heights from both sides to calculate trapped water at each index based on the min of max heights observed from both directions. | O(n) Time, O(1) Space | Modeling water collection in urban planning software or simulating fluid dynamics in environmental studies. |
 
 ### Stack
 
-| Problem Name | Approach | Complexity | Real-World Examples | 
+| Problem Name | Hint | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
-|||||
+| [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Track opening parentheses and match them with closing ones as they appear. | O(n) Time, O(n) Space | Syntax checking in code editors. |
+| [155. Min Stack](https://leetcode.com/problems/min-stack/) | Simple stack with stored min, `(int item, int min)[] items`. | O(1) Time for all operations, O(n) Space | Implementing data structures in systems that require constant-time minimum retrieval, like resource management. |
+| [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | If int, then Push, else Pop+Pop, to evaluate the last operator. | O(n) Time, O(n) Space | Calculator software that needs to evaluate expressions entered in postfix form for easier computation. |
+| [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Use backtracking, pass `countOpen` and `countClosed`, `if (countClosed == n) list.Add(str)`, adding open or close as long as it doesn't invalidate the sequence. | O(4^n / sqrt(n)) Time (Catalan number), O(n) Space | Generating valid configurations for systems modeled with constraints similar to balanced parentheses. |
+| [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Stack to track indices of temperatures, Pop when a higher temperature to calculate days until a warmer temperature. | O(2n) Time, O(n) Space | Climatology software predicting future temperature trends or changes based on past data. |
+| [853. Car Fleet](https://leetcode.com/problems/car-fleet/) | Sort by position, `for` loop from the end, calculate the time needed for each car to reach the target, determine fleets based on time to reach the target. | O(n log n + n) Time (due to sorting, O(n) Space | Logistics and transport management systems tracking groups of vehicles reaching destinations. |
+| [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Use a stack to maintain bars of histograms, and calculate area by extending the width for bars stored in the stack until a smaller one is encountered, `new Stack<(int index, int height)>()`, Push back last index with max common height. | O(n) Time, O(n) Space | Computational geometry applications analyzing spatial data to find the largest possible area under constraints. |
+
 
 ### Binary Search
 
