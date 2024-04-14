@@ -82,8 +82,14 @@ Well known problems (e.g. [Neetcode roadmap](https://neetcode.io/roadmap)), and 
 ### Heap / Priority Queue
 
 | Problem Name | Approach | Complexity | Real-World Examples | 
-|--------------|------|------------|---------------------|
-|||||
+|--------------|----------|------------|---------------------|
+| [703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | Min-heap of size k, the top is the kth largest. | O(log k) for add operation, O(k) for initialization | Real-time leaderboard updates in gaming or financial applications, where only the top performers need to be tracked. |
+| [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | Max-heap to dequeue the two largest stones until one or none remains. | O(n log n) Time, O(n) Space | Simulation of processes where the largest items are progressively reduced or combined, similar to tournament structures. |
+| [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | Max-heap of size k, priority based on Euclidean distance. | O(n log k) Time, O(k) Space | Determining nearest facility locations in logistics or emergency services relative to a central point. |
+| [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Min-heap of size k,  the top is the kth largest, for guaranteed O(n log k). | O(n) average, O(n log k) worst-case | Stock market analysis to find the kth top-performing stocks in a dynamic array of stock changes. |
+| [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Max-heap to schedule the most frequent tasks first, and cooldown queue with a period enforced by a counter. | O(n) Time, O(1) Space | CPU task scheduling where tasks must be spaced by a cooling period to prevent overheating or resource contention. |
+| [355. Design Twitter](https://leetcode.com/problems/design-twitter/) | Implement using a combination of lists (for tweets) and hashmaps (for user follow information), using heaps to sort tweets by timestamp. | O(log n) for fetching tweets, O(1) for tweet posting and follow actions | Social media platforms where users need real-time access to a dynamically updating stream of data from followed accounts. |
+
 
 ### Intervals
 
