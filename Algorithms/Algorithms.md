@@ -49,6 +49,10 @@ Well known problems (e.g. [Neetcode roadmap](https://neetcode.io/roadmap)), and 
 |--------------|------|------------|---------------------|
 |||||
 
+| Problem Name | Approach | Complexity | Real-World Examples | 
+|--------------|----------|------------|---------------------|
+| [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) | While left <= right, Use binary search to find the target value or return left as position in a sorted array. | O(log n) Time, O(1) Space | Used in database queries to determine the insertion point for new records to maintain sorted order. |
+
 ### Sliding Window
 
 | Problem Name | Approach | Complexity | Real-World Examples | 
@@ -139,6 +143,7 @@ Well known problems (e.g. [Neetcode roadmap](https://neetcode.io/roadmap)), and 
 | [268. Missing Number](https://leetcode.com/problems/missing-number/) | Use XOR to detect the missing number in a sequence from 0 to n. | O(n) Time, O(1) Space | Detecting missing elements in data transmission or synchronization errors in data streams. |
 | [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | XOR for sum, AND for carry. | O(1) Time, O(1) Space | Low-level programming where arithmetic operations are restricted or to avoid integer overflow issues. |
 | [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Iteratively pop and push digits, check overflow before commit and bit shift. | O(log(n)) Time, O(1) Space | Applications requiring manipulation of numeric input, like calculators, or games involving number puzzles. |
+| [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Like two pointers, extract value by / and %. | O(log n) Time, O(1) Space | Validating serial numbers, reading palindromic sequences in computational biology, or data validation checks. |
 
 ### Math & Geometry
 
