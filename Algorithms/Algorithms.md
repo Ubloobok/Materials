@@ -131,8 +131,14 @@ Well known problems (e.g. [Neetcode roadmap](https://neetcode.io/roadmap)), and 
 ### Bit Manipulation
 
 | Problem Name | Approach | Complexity | Real-World Examples | 
-|--------------|------|------------|---------------------|
-|||||
+|--------------|----------|------------|---------------------|
+| [136. Single Number](https://leetcode.com/problems/single-number/) | Use XOR to find the single non-repeated number in an array of pairs. | O(n) Time, O(1) Space | Detecting unique elements in datasets, such as unique user IDs in logs where all other IDs appear in pairs. |
+| [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Iterate through each bit of the number using a mask. | O(1) Time, O(1) Space | Analysis of network packets to check parity or error bits, or simple hardware fault detection. |
+| [338. Counting Bits](https://leetcode.com/problems/counting-bits/) | Dynamic programming, array where each element is the count of 1's in the binary representation of the index, turn off the rightmost 1-bit: `n & (n - 1)`. | O(n) Time, O(n) Space | Generating histograms of bit counts for cryptographic analysis or optimizing data compression algorithms. |
+| [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) | Iterate through each bit, set left (high) bit equal to lowest 0th bit, `result |= (uint)((n & 1) << bit)`. | O(1) Time, O(1) Space | Bit-level operations in low-level hardware communication protocols or graphics rendering optimizations. |
+| [268. Missing Number](https://leetcode.com/problems/missing-number/) | Use XOR to detect the missing number in a sequence from 0 to n. | O(n) Time, O(1) Space | Detecting missing elements in data transmission or synchronization errors in data streams. |
+| [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | XOR for sum, AND for carry. | O(1) Time, O(1) Space | Low-level programming where arithmetic operations are restricted or to avoid integer overflow issues. |
+| [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Iteratively pop and push digits, check overflow before commit and bit shift. | O(log(n)) Time, O(1) Space | Applications requiring manipulation of numeric input, like calculators, or games involving number puzzles. |
 
 ### Math & Geometry
 
