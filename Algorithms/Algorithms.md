@@ -46,12 +46,15 @@ Well known problems (e.g. [Neetcode roadmap](https://neetcode.io/roadmap)), and 
 ### Binary Search
 
 | Problem Name | Approach | Complexity | Real-World Examples | 
-|--------------|------|------------|---------------------|
-|||||
-
-| Problem Name | Approach | Complexity | Real-World Examples | 
 |--------------|----------|------------|---------------------|
-| [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) | While left <= right, Use binary search to find the target value or return left as position in a sorted array. | O(log n) Time, O(1) Space | Used in database queries to determine the insertion point for new records to maintain sorted order. |
+| [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Binary search to find the target or return left as position in a sorted array, `while left <= right`. | O(log n) Time, O(1) Space | Used in database queries to determine the insertion point for new records to maintain sorted order. |
+| [704. Binary Search](https://leetcode.com/problems/binary-search/) | Binary search to find the target or determine it's not present. | O(log n) Time, O(1) Space | Quickly locating records in a large, sorted database or in any sorted data collection. |
+| [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Treat the 2D matrix as a flattened sorted array and use binary search. | O(log(m*n)) Time, O(1) Space | Searching in databases where records are stored in a matrix format, like seat reservations. |
+| [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | Use binary search to find the smallest possible maximum eating rate that allows Koko to eat all bananas within H hours. | O(n log m) Time, O(1) Space | Optimizing rates of processing or consumption in logistical operations and resource management. |
+| [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Modified binary search, compare `mid` to `last` to handle the rotation. | O(log n) Time, O(1) Space | Applications involving retrieval of minimum data values from cyclically sorted datasets. |
+| [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Modified binary search, compare values to determine if left or right half is sorted. | O(log n) Time, O(1) Space | Searching in rotated logs or timeseries data where a sequence has been cyclically shifted. |
+| [981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | Dictionary where each key maps to a sorted list of timestamped values; then binary search. | O(log n) for searches, O(1) for insertions | Version control systems or caching systems where data must be retrieved as it existed at a particular time. |
+| [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Parallel binary search in both arrays, ensuring the median conditions are satisfied, `int maxX = (partitionX == 0) ? int.MinValue : nums1[partitionX - 1];` etc. | O(log(min(m, n))) Time, O(1) Space | Statistical analysis in real-time data processing where median values are required from continuously updated data streams. |
 
 ### Sliding Window
 
