@@ -59,8 +59,13 @@ Well known problems (e.g. [Neetcode roadmap](https://neetcode.io/roadmap)), and 
 ### Sliding Window
 
 | Problem Name | Approach | Complexity | Real-World Examples | 
-|--------------|------|------------|---------------------|
-|||||
+|--------------|----------|------------|---------------------|
+| [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Iterate through the list of prices, keeping track of the minimum price encountered so far and calculating the maximum profit from potential sales on subsequent days. | O(n) Time, O(1) Space | Used in financial algorithms to maximize profit from trading stocks based on historical data. |
+| [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Use a sliding window approach with a hash map to track the last indices of characters and expand the window until a repeat character is found. | O(n) Time, O(min(m, n)) Space | Identifying the longest unique visitor sequence in web analytics without repeating users. |
+| [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | Use a sliding window approach to find the longest substring where you can replace k characters to make the substring all one character. | O(n) Time, O(1) Space | Modifying strings in text processing to achieve uniformity for aesthetic or formatting purposes. |
+| [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Use a sliding window with two arrays to check character counts in the current window against the target permutation's character counts. | O(n) Time, O(1) Space | Searching for anagrams or certain patterns within biological sequences in computational biology. |
+| [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Implement a sliding window to find the smallest substring encompassing all the characters of another string, adjusting the window dynamically. | O(n) Time, O(m) Space | Filtering data to find the minimum context window containing required tokens in natural language processing. |
+| [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Use a deque to maintain indices of elements, ensuring the front of the deque always gives the maximum element for the current window. | O(n) Time, O(k) Space | Real-time queue management where maximum or priority needs to be determined quickly within a moving time frame. |
 
 ### Linked List
 
@@ -105,6 +110,10 @@ Well known problems (e.g. [Neetcode roadmap](https://neetcode.io/roadmap)), and 
 |||||
 
 ### Greedy
+
+A greedy algorithm constructs a solution by always making a choice that looks the best at the moment. 
+It directly constructs the final solution. For this reason, greedy algorithms are usually very efficient.
+The difficulty is that locally optimal choices (function) should also be globally optimal.
 
 | Problem Name | Approach | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
