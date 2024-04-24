@@ -78,6 +78,7 @@ Well known problems (e.g. [Neetcode roadmap](https://neetcode.io/roadmap)), and 
 | Problem Name | Approach | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
 |||||
+| [Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/) | Find the inorder successor of a given node in a BST by leveraging the properties of BSTs. If the node has a right child, the successor is the leftmost node of the right subtree; if not, traverse from the root to find the next larger parent. | O(h) Time, O(1) Space | Database query optimizations where records are ordered and a direct successor is needed for cursors or iterators in ordered data structures. |
 
 ### Tries
 
@@ -102,7 +103,6 @@ Well known problems (e.g. [Neetcode roadmap](https://neetcode.io/roadmap)), and 
 | [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Max-heap to schedule the most frequent tasks first, and cooldown queue with a period enforced by a counter. | O(n) Time, O(1) Space | CPU task scheduling where tasks must be spaced by a cooling period to prevent overheating or resource contention. |
 | [355. Design Twitter](https://leetcode.com/problems/design-twitter/) | Implement using a combination of lists (for tweets) and hashmaps (for user follow information), using heaps to sort tweets by timestamp. | O(log n) for fetching tweets, O(1) for tweet posting and follow actions | Social media platforms where users need real-time access to a dynamically updating stream of data from followed accounts. |
 
-
 ### Intervals
 
 | Problem Name | Approach | Complexity | Real-World Examples | 
@@ -121,7 +121,8 @@ The difficulty is that locally optimal choices (function) should also be globall
 | [55. Jump Game](https://leetcode.com/problems/jump-game/) | Iterate through array, track max jump balance, i.e. the furthest reachable index as you move forward. | O(n) Time, O(1) Space | Evaluating if a sequence of steps or tasks can be completed in games or real-life project planning. |
 | [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/) | Iterate through array, track current end of the range you can reach and the farthest point that can be reached with another jump. Update the jump count each time you reach the end of the current range. | O(n) Time, O(1) Space | Planning and optimizing routes in logistics to minimize stops or changes, such as in delivery routes or during network routing to reduce latency. |
 |||||
-| [179. Largest Number](https://leetcode.com/problems/largest-number/) | Sort the numbers based on a custom comparator that compares two strings formed by concatenating the numbers in different orders. | O(n log n) Time, O(n) Space (or more because of temp memory?) | Creating the largest possible numerical value from a sequence of numbers, useful in generating visually impactful marketing numbers or sorting technical identifiers in a maximally distinguishable way. |
+| [2384. Largest Palindromic Number](https://leetcode.com/problems/largest-palindromic-number/) | Count frequency of digits, arrange the even frequency digits symmetrically and the biggest odd frequency digit in the middle. | O(n) Time, O(n) Space | Generating aesthetically pleasing or numerically significant identifiers in branding or product labeling. |
+| [179. Largest Number](https://leetcode.com/problems/largest-number/) | Sort the numbers as strings formed by concatenating the numbers in different orders. | O(n log n) Time, O(n) Space (plus temp memory?) | Creating the largest possible numerical value from a sequence of numbers, useful in generating visually impactful marketing numbers or sorting technical identifiers in a maximally distinguishable way. |
 
 ### Graphs
 
@@ -160,6 +161,7 @@ The difficulty is that locally optimal choices (function) should also be globall
 | [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | XOR for sum, AND for carry. | O(1) Time, O(1) Space | Low-level programming where arithmetic operations are restricted or to avoid integer overflow issues. |
 | [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Iteratively pop and push digits, check overflow before commit and bit shift. | O(log(n)) Time, O(1) Space | Applications requiring manipulation of numeric input, like calculators, or games involving number puzzles. |
 | [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Like two pointers, extract value by / and %. | O(log n) Time, O(1) Space | Validating serial numbers, reading palindromic sequences in computational biology, or data validation checks. |
+| [1404. Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | Use Stack of bits, simulate each step, pop back to stack or keep carry variable (and increment steps by one or two). | O(n) Time, O(n) Space | Certain cryptographic algorithms or low-level hardware operations where binary states are manipulated. |
 
 ### Math & Geometry
 
