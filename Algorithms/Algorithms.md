@@ -75,6 +75,7 @@ The sliding window minimum can be calculated using a similar idea that we used t
 | Problem Name | Approach | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
 |||||
+| [445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | Use stacks to reverse the order of digits in each linked list (or just reverse them). Pop elements from both stacks, sum them, and manage the carry. | O(n + m) Time, O(n + m) Space (where n and m are the lengths of the two linked lists) | Financial calculations where numbers are stored in linked structures, requiring summation without reversing the data structure in-memory. |
 
 ### Trees
 
@@ -82,6 +83,7 @@ The sliding window minimum can be calculated using a similar idea that we used t
 |--------------|------|------------|---------------------|
 |||||
 | [Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/) | Find the inorder successor of a given node in a BST by leveraging the properties of BSTs. If the node has a right child, the successor is the leftmost node of the right subtree; if not, traverse from the root to find the next larger parent. | O(h) Time, O(1) Space | Database query optimizations where records are ordered and a direct successor is needed for cursors or iterators in ordered data structures. |
+| [669. Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/) | Recursively traverse the tree and exclude nodes with values outside the given range, return left or right instead of the current. | O(n) Time, O(h) Space (where h is the height of the tree, accounting for recursive stack) | Used in database queries to filter out records that fall outside of certain bounds, ensuring data integrity and relevance. |
 
 ### Tries
 
