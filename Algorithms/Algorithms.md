@@ -19,6 +19,7 @@ Well known problems (e.g. [Neetcode roadmap](https://neetcode.io/roadmap)), and 
 | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Check rows, columns, and 3x3 sub-boxes for duplicates using sets or arrays. | O(n^2) Time, O(n) Space | Validating user input in digital Sudoku games to ensure the rules are followed. |
 | [271. Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) | Use a delimiter not present in strings or encode lengths to separate strings. | O(n) Time, O(n) Space | Encoding and decoding communication protocols in networking, or data storage formats. |
 | [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Use a set for the array elements, then find the longest consecutive streak. | O(n) Time, O(n) Space | Determining the longest streak of attendance or consecutive logins by a user on a platform. |
+| [2028. Find Missing Observations](https://leetcode.com/problems/find-missing-observations/) | Missing sum equals `mean * (n + m) - rolls sum` by mean nature. Distribute this sum among the missing observations, ensuring none exceed the max roll. | O(n) Time, O(m) Space (where n is the number of given observations and m is the number of missing observations) | Statistical adjustments in data analysis to estimate missing data points in a survey or experiment. |
 
 ### Two Pointers
 
@@ -135,6 +136,7 @@ The difficulty is that locally optimal choices (function) should also be globall
 |--------------|------|------------|---------------------|
 | [207. Course Schedule](https://leetcode.com/problems/course-schedule) | DFS to find any cycle. | O(2n + 2e)) Time, O(3n + e) Space | Maze Solving, Dependency Resolution, Network Analysis. |
 | [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii) | Topological Sort using BFS (Kahn's Algorithm). | O(2n + 2e) Time, O(3n + e) Space | Shortest Path, Social Networking, Web Crawling. |
+| [277. Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/) | First, identify a candidate who could be the celebrity by comparing a known candidate to `i`, because celebrity should know no one, while a regular person should know at least the celebrity. Then, verify whether this candidate knows no one while everyone knows the candidate. | O(n) Time, O(1) Space | Social network analysis to determine key influencers or central figures who are known by everyone but who themselves know few others. |
 
 ### Advanced Graphs
 
