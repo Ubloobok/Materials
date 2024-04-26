@@ -20,6 +20,7 @@ Well known problems (e.g. [Neetcode roadmap](https://neetcode.io/roadmap)), and 
 | [271. Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) | Use a delimiter not present in strings or encode lengths to separate strings. | O(n) Time, O(n) Space | Encoding and decoding communication protocols in networking, or data storage formats. |
 | [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Use a set for the array elements, then find the longest consecutive streak. | O(n) Time, O(n) Space | Determining the longest streak of attendance or consecutive logins by a user on a platform. |
 | [2028. Find Missing Observations](https://leetcode.com/problems/find-missing-observations/) | Missing sum equals `mean * (n + m) - rolls sum` by mean nature. Distribute this sum among the missing observations, ensuring none exceed the max roll. | O(n) Time, O(m) Space (where n is the number of given observations and m is the number of missing observations) | Statistical adjustments in data analysis to estimate missing data points in a survey or experiment. |
+| [575. Distribute Candies](https://leetcode.com/problems/distribute-candies/) | HashSet to count unique types, or iterate through the sorted array and count it, return not more than max. | O(n) Time, O(m) Space, or O(n log n) Time, O(1) Space | Allocation problems in resource management, such as distributing limited resources (like different types of treats) to ensure a fair and diverse distribution among participants. |
 
 ### Two Pointers
 
