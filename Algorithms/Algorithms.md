@@ -147,9 +147,27 @@ The difficulty is that locally optimal choices (function) should also be globall
 
 ### 1-D DP
 
-| Problem Name | Approach | Complexity | Real-World Examples | 
-|--------------|------|------------|---------------------|
-|||||
+Dynamic programming is a technique that combines the correctness of complete search and the efficiency of greedy algorithms. Dynamic programming can be applied if the problem can be divided into overlapping subproblems that can be solved independently.
+There are two uses for dynamic programming:
+* Finding an optimal solution: We want to find a solution that is as large as possible or as small as possible.
+* Counting the number of solutions: We want to calculate the total number of possible solutions.
+
+| Problem Name | Approach | Complexity | Real-World Examples |
+|--------------|----------|------------|---------------------|
+| [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Similar to Fibonacci sequence. DP to keep the count with a relation `dp[i] = dp[i-1] + dp[i-2]`, . | O(n) Time, O(1) Space | Planning steps in project phases where each step can depend on the previous two outcomes. |
+| [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | DP to find the minimum cost to reach the top of the floor from either of the two starting steps. | O(n) Time, O(1) Space | Cost optimization in construction or maintenance tasks where each step has a variable cost. |
+| [198. House Robber](https://leetcode.com/problems/house-robber/) | DP to maximize the amount of money robbed, ensuring no two adjacent houses are robbed. | O(n) Time, O(1) Space | Security systems design where events must be spaced to avoid detection. |
+| [213. House Robber II](https://leetcode.com/problems/house-robber-ii/) | Adjust the House Robber solution to account for the houses being in a circle. Solve twice: excluding the first house and excluding the last house. | O(n) Time, O(1) Space | Managing resources in cyclic schedules to avoid conflicts or overuse. |
+| [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Expand around center for each character and between each pair of characters to find the longest palindrome. | O(n^2) Time, O(1) Space | Text processing applications, such as formatting or editing where symmetry needs highlighting. |
+| [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Similar to longest palindromic substring, count all palindromic substrings expanding around each center. | O(n^2) Time, O(1) Space | Data validation where palindromic patterns signify special meanings or codes. |
+| [91. Decode Ways](https://leetcode.com/problems/decode-ways/) | DP to count the number of ways to decode a message given a number-to-letter mapping from 1 to 26. | O(n) Time, O(1) Space | Encoding and decoding messages in communication software or data transmission. |
+| [322. Coin Change](https://leetcode.com/problems/coin-change/) | DP to find the fewest number of coins needed to make up a certain amount, considering all given coin denominations. | O(n*k) Time, O(n) Space (where k is the number of coin denominations) | Financial software for making change or optimizing currency storage in vending machines. |
+| [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Track the maximum from both left and right directions, or for every range starting after zero. | O(n) Time, O(1) Space | Financial modeling where product terms may involve assets that can invert their effect due to market conditions. |
+| [139. Word Break](https://leetcode.com/problems/word-break/) | DP to determine if the string can be segmented into a space-separated sequence of one or more dictionary words using dynamic programming. | O(n^2) Time, O(n) Space | Natural language processing for tokenizing text into known words or phrases. |
+| [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | DP to track the longest increasing subsequence, as max length at this step. | O(n^2) Time, O(n log n) Space with optimization | Database queries where ordered sequences of events need to be identified over time. |
+| [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | Total sum should be even (divided by 2), otherwise it's not possible. After that, solve using reversed DP to find if halved-sum may be combined using these numbers. | O(n * sum/2) Time, O(sum/2) Space (where sum is the total sum of array elements) | Resource allocation where resources need to be divided evenly for fairness or balance. |
+| [2998. Minimum Number of Operations to Make X and Y Equal](https://leetcode.com/problems/minimum-number-of-operations-to-make-x-and-y-equal/) | BFS-approach, start from `x` and expore all possible operations. This problem can be framed as finding the shortest path in an unweighted graph, where each node represents a value of `x`, and each edge represents one operation. Keep track of visited states to avoid redundant work. | O(n) Time, O(n) Space (where `n` is the difference between `x` and `y` potentially multiplied by the factors adjustments) | This approach can be used in optimization problems in software systems where step-wise transformations of a state or value need to be efficiently managed to reach a target configuration, such as resource allocation where adjustments have specific allowed operations. |
+
 
 ### 2-D DP
 
