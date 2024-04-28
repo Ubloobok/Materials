@@ -96,9 +96,15 @@ The sliding window minimum can be calculated using a similar idea that we used t
 
 ### Backtracking
 
+A backtracking algorithm begins with an empty solution and extends the solution step by step. The search recursively goes through all different ways how a solution can be constructed.
+
 | Problem Name | Approach | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
 |||||
+| Problem Name | Approach | Complexity | Real-World Examples |
+|--------------|----------|------------|---------------------|
+| [465. Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/) | Backtracking by combinations (`start = 0` and `for i = start + 1`) to try all combinations how to settle debt and make balance of each person equal zero. | O(n!) Time, O(n) Space | Financial applications where transactions among multiple parties need to be settled with the minimum number of transfers, such as simplifying debts after group expenses. |
+
 
 ### Heap / Priority Queue
 
