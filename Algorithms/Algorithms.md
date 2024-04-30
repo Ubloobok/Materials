@@ -104,7 +104,7 @@ A backtracking algorithm begins with an empty solution and extends the solution 
 | Problem Name | Approach | Complexity | Real-World Examples |
 |--------------|----------|------------|---------------------|
 | [465. Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/) | Backtracking by combinations (`start = 0` and `for i = start + 1`) to try all combinations how to settle debt and make balance of each person equal zero. | O(n!) Time, O(n) Space | Financial applications where transactions among multiple parties need to be settled with the minimum number of transfers, such as simplifying debts after group expenses. |
-
+| [2850. Minimum Moves to Spread Stones Over Grid](https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid/) | Backtracking by zero and source cells. Calculate each possible combination of moves, keeping track of the minimum number of moves required to ensure each cell ends up with exactly one stone. | O(n!) Time, O(n) Space (where n is the number of cells to fill) | Logistics and resource distribution scenarios where items must be evenly distributed across multiple locations with the minimum movement. |
 
 ### Heap / Priority Queue
 
