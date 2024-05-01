@@ -204,7 +204,6 @@ There are two uses for dynamic programming:
 
 ### Math & Geometry
 
-| Problem Name | Approach | Complexity | Real-World Examples | 
-|--------------|------|------------|---------------------|
-|||||
-
+| Problem Name | Approach | Complexity | Real-World Examples |
+|--------------|----------|------------|---------------------|
+| [836. Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | Check if one rectangle is to the left of the other (any of X). Check if one rectangle is above the other (any of Y). | O(1) Time, O(1) Space | Collision detection in graphics rendering or game development, spatial data analysis in GIS applications, and GUI layout design. |
