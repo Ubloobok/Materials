@@ -128,6 +128,7 @@ A backtracking algorithm begins with an empty solution and extends the solution 
 | Problem Name | Approach | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
 |||||
+| [3009. Maximum Number of Intersections on the Chart](https://leetcode.com/problems/maximum-number-of-intersections-on-the-chart/) | [Sweep Line Algorithms](https://leetcode.com/discuss/study-guide/2166045/line-sweep-algorithms), treat coordinates as ranges, if the range rises (i.e., the y-value increases), the start of the segment contributes positively to the count of intersections, `+1`), and if the segment falls, it's considered one unit later, to not count the same point twice. | O(n log n) Time, O(n) Space | Finding intersections in a set of line segments, computing the union or intersection of rectangles, and other problems where events occur along a line. |
 
 ### Greedy
 
