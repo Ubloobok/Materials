@@ -76,9 +76,19 @@ The sliding window minimum can be calculated using a similar idea that we used t
 
 ### Linked List
 
-| Problem Name | Approach | Complexity | Real-World Examples | 
-|--------------|------|------------|---------------------|
-|||||
+| Problem Name | Approach | Complexity | Real-World Examples |
+|--------------|----------|------------|---------------------|
+| [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Iterative (keep last) or recursive method. | O(n) Time, O(1) Space | Reversing transaction logs to view the most recent transactions first. |
+| [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Start with dummy, adjust two pointers, without creating new nodes. | O(n + m) Time, O(1) Space | Merging sorted data streams, such as merging user data from two different sources in sorted order. |
+| [143. Reorder List](https://leetcode.com/problems/reorder-list/) | Use a fast and slow pointer to find the middle, reverse the second half of the list, then merge the two halves alternately. | O(n) Time, O(1) Space | Reorganizing data to optimize access patterns, like in music playlists or reading lists. |
+| [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Use stack and remove Nth node on reversed loop. OR find length of list and skip Nth node then. | O(n) Time, O(n) OR O(1) Space | Removing outdated entries from a list where entries are kept for a certain period, like caching mechanisms. |
+| [138. Copy List With Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | Create a deep copy of a linked list where each node has an additional random pointer, using a dictionary to manage node copies. | O(n) Time, O(n) Space | Creating a backup of a complex data structure where elements have both linear and random relationships. |
+| [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Add two numbers represented as linked lists, using a carry to handle sums greater than ten. | O(max(n, m)) Time, O(max(n, m)) Space | Adding large numbers in systems with limited numerical precision, like in embedded systems. |
+| [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Detect if a linked list has a cycle using two pointers moving at different speeds (Floyd's Tortoise and Hare algorithm). OR use HashSet for visited nodes. | O(n) Time, O(1) Space | Cycle detection in applications like resource allocation or network routing to prevent infinite loops. |
+| [287. Find The Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Use cycle detection (Floyd's Tortoise and Hare algorithm) OR mark as negative (`nums[i]` is a pointer to some array element and duplicate value at the same time) to find a duplicate in an array of integers where numbers are between 1 and n. | O(n) Time, O(1) Space | Identifying duplicate requests or entries in systems where uniqueness is required, such as user IDs or reservation codes. |
+| [146. LRU Cache](https://leetcode.com/problems/lru-cache/) | Implement a cache mechanism using a hash map and a double-ended queue (deque) to achieve O(1) operations. | O(1) Time, O(capacity) Space | Implementing caches in web browsers or databases to store frequently accessed data for quick retrieval. |
+| [23. Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Merge multiple sorted linked lists into one sorted list using a priority queue or divide-and-conquer approach. | O(n log k) Time, O(k) Space | Combining data from multiple sorted sources, such as merging logs from multiple servers that are timestamped. |
+| [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Reverse nodes in a linked list in groups of k using iterative or recursive methods to handle group inversions. | O(n) Time, O(1) Space | Batch processing tasks where operations need to be reversed or undone in groups, such as transaction rollbacks. |
 | [445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | Use stacks to reverse the order of digits in each linked list (or just reverse them). Pop elements from both stacks, sum them, and manage the carry. | O(n + m) Time, O(n + m) Space (where n and m are the lengths of the two linked lists) | Financial calculations where numbers are stored in linked structures, requiring summation without reversing the data structure in-memory. |
 
 ### Trees
