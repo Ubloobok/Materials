@@ -133,6 +133,7 @@ A backtracking algorithm begins with an empty solution and extends the solution 
 | [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Min-heap of size k,  the top is the kth largest, for guaranteed O(n log k). | O(n) average, O(n log k) worst-case | Stock market analysis to find the kth top-performing stocks in a dynamic array of stock changes. |
 | [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Max-heap to schedule the most frequent tasks first, and cooldown queue with a period enforced by a counter. | O(n) Time, O(1) Space | CPU task scheduling where tasks must be spaced by a cooling period to prevent overheating or resource contention. |
 | [355. Design Twitter](https://leetcode.com/problems/design-twitter/) | Implement using a combination of lists (for tweets) and hashmaps (for user follow information), using heaps to sort tweets by timestamp. | O(log n) for fetching tweets, O(1) for tweet posting and follow actions | Social media platforms where users need real-time access to a dynamically updating stream of data from followed accounts. |
+| [1405. Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | Utilize reversed priority queue (`Comparer<int>.Create((x, y) => y - x)`, max heap), append characters based on their frequency, use cooldown queue. | O((a+b+c) log 3) Time, O(1) Space | Generating text for display in digital advertising where diversity in character usage might engage viewers longer. |
 
 ### Intervals
 
