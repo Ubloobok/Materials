@@ -238,3 +238,11 @@ There are two uses for dynamic programming:
 | Problem Name | Approach | Complexity | Real-World Examples |
 |--------------|----------|------------|---------------------|
 | [836. Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | Check if one rectangle is to the left of the other (any of X). Check if one rectangle is above the other (any of Y). | O(1) Time, O(1) Space | Collision detection in graphics rendering or game development, spatial data analysis in GIS applications, and GUI layout design. |
+
+### Segment Tree
+
+[A Segment Tree](https://cp-algorithms.com/data_structures/segment_tree.html) is a data structure that stores information about array intervals as a tree.
+Is a data structure that supports two operations: processing a range query and updating an array value. Segment trees can support sum queries, minimum and maximum queries and many other queries so that both operations work in O(logn) time.
+
+| Problem Name | Approach | Complexity | Real-World Examples |
+|--------------|----------|------------|---------------------|
