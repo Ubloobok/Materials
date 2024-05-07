@@ -193,10 +193,12 @@ The difficulty is that locally optimal choices (function) should also be globall
 
 ### 1-D DP
 
-Dynamic programming is a technique that combines the correctness of complete search and the efficiency of greedy algorithms. Dynamic programming can be applied if the problem can be divided into overlapping subproblems that can be solved independently.
+Dynamic programming is a technique that combines the correctness of complete search and the efficiency of greedy algorithms.
+Dynamic programming can be applied if the problem can be divided into overlapping subproblems that can be solved independently.
 There are two uses for dynamic programming:
 * Finding an optimal solution: We want to find a solution that is as large as possible or as small as possible.
 * Counting the number of solutions: We want to calculate the total number of possible solutions.
+See also [0-1 Knapsack problem](https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/).
 
 | Problem Name | Approach | Complexity | Real-World Examples |
 |--------------|----------|------------|---------------------|
