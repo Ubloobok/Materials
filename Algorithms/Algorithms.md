@@ -59,6 +59,8 @@ Well known problems (e.g. [Neetcode roadmap](https://neetcode.io/roadmap)), and 
 | [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Modified binary search, compare values to determine if left or right half is sorted. | O(log n) Time, O(1) Space | Searching in rotated logs or timeseries data where a sequence has been cyclically shifted. |
 | [981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | Dictionary where each key maps to a sorted list of timestamped values; then binary search. | O(log n) for searches, O(1) for insertions | Version control systems or caching systems where data must be retrieved as it existed at a particular time. |
 | [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Parallel binary search in both arrays, ensuring the median conditions are satisfied, `int maxX = (partitionX == 0) ? int.MinValue : nums1[partitionX - 1];` etc. | O(log(min(m, n))) Time, O(1) Space | Statistical analysis in real-time data processing where median values are required from continuously updated data streams. |
+| [2817. Minimum Absolute Difference Between Elements With Constraint](https://leetcode.com/problems/minimum-absolute-difference-between-elements-with-constraint/) | Start from `i = x`, use binary search to find where to insert next element, or check if exactly the same exists. | O(n log n) Time due to sorting, O(1) Space | Financial analysis where minimal differences under certain conditions between stocks or assets need to be identified for arbitrage opportunities. |
+
 
 ### Sliding Window
 
