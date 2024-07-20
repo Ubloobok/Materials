@@ -11,7 +11,7 @@ This repo is set of links to my articles, slides for events, personal notes etc.
 * [Complexity Imitation](Complexity%20Imitation/README.md)
 * [Good Software Engineer](Good%20Software%20Engineer/README.md)
 * [Decision-making in Architecture Decision Records (ADR)](https://medium.com/@nikita_danilov/decision-making-in-architecture-decision-records-adr-e51a33b09402)
-* [From Shock to Support: Parallels Between Grief and SDLC (Software Development Lifecycle)](Grief%20and%SDLC/README.md)
+* [From Shock to Support: Parallels Between Grief and SDLC (Software Development Lifecycle)](Grief%20and%20SDLC/README.md)
 * TBD
 
 ## Topics
