@@ -1,0 +1,5 @@
+# From Shock to Support: Parallels Between Grief and SDLC (Software Development Lifecycle)
+
+In our mysterious world of software engineering, we can often draw parallels between seemingly unrelated concepts. One such intriguing association is mapping the phases of the [Software Development Lifecycle (SDLC)](https://en.wikipedia.org/wiki/Systems_development_life_cycle) to [stages of Grief](https://probablyhealthy.com/seven-stages-of-grief/#what-are-the-7-stages-of-grief) (or a later one, [The Kübler-Ross Change Curve](https://stresslessco.com/blog/changecurve)). Whether this analogy provides useful insights or is simply good fun, it makes for an interesting exploration. So, let’s dive into this humorous journey through the emotional rollercoaster that is software development!
+
+![1](Grief%20and%20SDLC%20stages.png)
