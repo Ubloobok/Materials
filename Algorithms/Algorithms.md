@@ -193,6 +193,8 @@ The difficulty is that locally optimal choices (function) should also be globall
 | [2971. Find Polygon With the Largest Perimeter](https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/) | Sort array ascending, accumulate perimeter and compare to longest side in `i`. | O(n log n) Time for sorting and convex hull, O(n) Space | Geographic Information Systems (GIS) applications where defining areas based on geographical points is needed to optimize certain parameters like coverage area or boundary length. |
 | [1578. Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) | Keep max-time baloon in each group of consecutive same-colored balloons, remove (sum) others in this group. | O(n) Time, O(1) Space | Optimization in manufacturing processes where consecutive similar tasks need to be spaced out efficiently to minimize resource usage or cost. |
 | [134. Gas Station](https://leetcode.com/problems/gas-station/) | Greedily check if a trip around the circuit is possible by calculating the total gas and total cost, then finding the starting point where the cumulative gas is non-negative. | O(n) Time, O(1) Space | Planning efficient routes for delivery trucks where fuel stations need to be strategically selected. |
+| [846. Hand of Straights](https://leetcode.com/problems/hand-of-straights/) | Use a dictionary to count occurrences of each card. Iterate through the sorted keys and try to form consecutive groups by decrementing the counts in the dictionary. | O(n log n) Time (for sorting) and O(n) Space | Organizing consecutive groups of tasks or items, such as scheduling tasks in a sequence or grouping related data in a stream. |
+
 
 ### Graphs
 
