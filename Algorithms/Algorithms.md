@@ -253,7 +253,7 @@ See also [0-1 Knapsack problem](https://www.geeksforgeeks.org/0-1-knapsack-probl
 
 | Problem Name | Approach | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
-|||||
+| [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Use a dynamic programming with a grid of values, loop reverse through it, if strings has the same char in the position, we found one more solution (`dp[row,col] = dp[row+1,col+1] + 1;`), if not, copy max solution (`dp[row,col] = Math.Max(dp[row,col+1], dp[row+1,col])`). | O(m * n) Time, O(m * n) Space | Checking the difference between two files (diffing) or in genetic analysis as a measure of similarity between two genetic codes. |
 
 ### Bit Manipulation
 
