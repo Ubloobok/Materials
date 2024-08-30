@@ -254,6 +254,7 @@ See also [0-1 Knapsack problem](https://www.geeksforgeeks.org/0-1-knapsack-probl
 | Problem Name | Approach | Complexity | Real-World Examples | 
 |--------------|------|------------|---------------------|
 | [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Use a dynamic programming with a grid of values, loop reverse through it, if strings has the same char in the position, we found one more solution (`dp[row,col] = dp[row+1,col+1] + 1;`), if not, copy max solution (`dp[row,col] = Math.Max(dp[row,col+1], dp[row+1,col])`). | O(m * n) Time, O(m * n) Space | Checking the difference between two files (diffing) or in genetic analysis as a measure of similarity between two genetic codes. |
+| [518. Coin Change II](https://leetcode.com/problems/coin-change-ii/) | Bottom-Up DP with Space Optimization. Solve using reversed DP to find ways how may be combined using these numbers. That allows to equal subsets in the different order. We are not looking for number of **permutations**, rather, we are looking for number of **combinations**. | O(n * amount) Time, O(amount) Space | Resource allocation where resources need to be divided in restrictions. |
 
 ### Bit Manipulation
 
